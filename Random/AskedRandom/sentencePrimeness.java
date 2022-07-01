@@ -4,12 +4,12 @@ import java.util.*;
 public class Challenge {
 	
 	static boolean checkPrime(int num){
-		if(num<=1)return false;
-       for(int i=2;i < num/2;i++){
-           if((num % i)==0)
-               return false;
-       }
-       return true;
+		if(num <= 1) return false;
+       		for(int i=2;i < num/2;i++){
+          	 if((num % i)==0)
+			 return false;
+       		}
+       		return true;
 	}
 	
 	public static String sentencePrimeness(String str) {
