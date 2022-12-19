@@ -37,10 +37,8 @@ class JakeAndMeal
 			
 			if(hour == 12)
 				outputTime = 7 + " hour and " + (minute == 0 ? 0 : 60 - minute) + " minute";
-			
 			else if(hour >= 1 && hour < 8)
 				outputTime = (8 - hour - 1) + " hour and " + (minute == 0 ? 0 : 60 - minute) + " minute";
-			
 			else if(hour >= 8 && hour <= 11)
 				outputTime = (7 + (12 - hour-1)) + " hour and " + (minute == 0 ? 0 : 60 - minute) + " minute";
 			
