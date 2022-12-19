@@ -18,7 +18,7 @@ class WorkAtTech
 		
 		String hourAndMinuteArr[] = timeArr[0].split(":");
 		int hour = Integer.parseInt(hourAndMinuteArr[0]);
-    int minute = Integer.parseInt(hourAndMinuteArr[1]); 
+    	int minute = Integer.parseInt(hourAndMinuteArr[1]); 
 		String outputTime = "";
 		
 		if(timeArr[1].equals("A.M.")){
