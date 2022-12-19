@@ -1,8 +1,10 @@
+// https://edabit.com/challenge/HXAWjd2Nkj8eAJ2xY
+
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class WorkAtTech
+class JakeAndMeal
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
@@ -18,7 +20,7 @@ class WorkAtTech
 		
 		String hourAndMinuteArr[] = timeArr[0].split(":");
 		int hour = Integer.parseInt(hourAndMinuteArr[0]);
-    	int minute = Integer.parseInt(hourAndMinuteArr[1]); 
+    		int minute = Integer.parseInt(hourAndMinuteArr[1]); 
 		String outputTime = "";
 		
 		if(timeArr[1].equals("A.M.")){
