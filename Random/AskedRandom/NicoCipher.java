@@ -26,8 +26,8 @@ class NicoCipher
 			}
 		
 			char[] chars = key.toCharArray();
-      Arrays.sort(chars);
-      String sorted = new String(chars);	
+      			Arrays.sort(chars);
+      			String sorted = new String(chars);	
 		
 			HashMap<Character, Integer> h = new HashMap<>();
 			for(char c: sorted.toCharArray()){
@@ -40,8 +40,8 @@ class NicoCipher
 				ranking[i] = h.get(tempKey.charAt(i));
 			}
 		
-      // Encrption or Movement as Per Algo
-		  char res[][] = new char[rows][cols];
+      			// Encrption or Movement as Per Algo
+		  	char res[][] = new char[rows][cols];
 			for(int i=0 ; i < ranking.length; i++){
 				int colNo = ranking[i];
 				for(int k = 0; k < rows; k++){
